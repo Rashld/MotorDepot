@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/AnnouncementDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/ClientDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/DaoManager.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/DatabaseType.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/DispatcherDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/DriverDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/OpinionDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/dao/OrderDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/entity/Dispatcher.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/entity/Order.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/pool/ConnectionPool.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/epam/pool/Connector.java" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
