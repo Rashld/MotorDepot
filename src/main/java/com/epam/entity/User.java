@@ -1,14 +1,14 @@
 package com.epam.entity;
 
-/**
- * Created by Rashid on 01.10.2015.
- */
+import com.epam.entity.enums.Role;
+
 public class User extends Entity{
     private Role role;
     private String login;
     private String password;
     private String firstName;
     private String lastName;
+    private String phone;
 
     public Role getRole() {
         return role;
@@ -50,6 +50,14 @@ public class User extends Entity{
         this.lastName = lastName;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -64,7 +72,9 @@ public class User extends Entity{
             return false;
         if (getFirstName() != null ? !getFirstName().equals(user.getFirstName()) : user.getFirstName() != null)
             return false;
-        return !(getLastName() != null ? !getLastName().equals(user.getLastName()) : user.getLastName() != null);
+        if (getLastName() != null ? !getLastName().equals(user.getLastName()) : user.getLastName() != null)
+            return false;
+        return !(getPhone() != null ? !getPhone().equals(user.getPhone()) : user.getPhone() != null);
 
     }
 
@@ -76,6 +86,7 @@ public class User extends Entity{
         result = 31 * result + (getPassword() != null ? getPassword().hashCode() : 0);
         result = 31 * result + (getFirstName() != null ? getFirstName().hashCode() : 0);
         result = 31 * result + (getLastName() != null ? getLastName().hashCode() : 0);
+        result = 31 * result + (getPhone() != null ? getPhone().hashCode() : 0);
         return result;
     }
 }
